@@ -32,6 +32,15 @@ int main(void) {
     int a[5] = {11, 22, 33, 44, 55};
     int *p;
 
-    p = &a[0]; // p points to the arrays first element 
+    p = &a[0];  // p points to the arrays first element
+    // can also be rewritten as:
+    p = a;      // much clearer / nicer
 }
 ```
+
+## Function Signatures Note
+- We can pass in an array in various ways: `int *a`, `int a[]`, and `int a[5]` with the explicit length.
+- Functions will treat the above in the exact same way, starting at the beginning of the array.
+    - See: `chapter-6/single-dim-arrays.c` 
+- If we pass in a pointer to an array, then changes a function makes to an array will be visible back out in the caller. 
+    - See: `mutability.c`

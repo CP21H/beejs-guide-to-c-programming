@@ -1,5 +1,5 @@
 # Beej's Guide to C Programming
-**[Source](https://beej.us/guide/bgc/html/split/)** | **[Checkpoint - 7.4](https://beej.us/guide/bgc/html/split/strings.html)**
+**[Source](https://beej.us/guide/bgc/html/split/)** | **[Checkpoint - 8.4](https://beej.us/guide/bgc/html/split/structs.html)**
 
 This repository is a compilation of my personal notes in relation to learning / relearning C with Beej's Guide to C Programming. For this reason, notes will be on a need basis, meaning the entire book won't be regurgitated onto this repo.
 
